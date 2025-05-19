@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios</title>
+    <link rel="stylesheet" href="css/horarios.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Marcar sua consulta nunca foi tão simples</h1>
+        <h3>Marque seu agendamento e escolha o horário de sua preferencia</h3>
+
+        <form onsubmit="confirmarConsulta(event)">
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required min="" onchange="atualizarHorarios()">
+
+            <label for="hora">Horário:</label>
+            <select id="hora" name="hora" required>
+                <option value="">Selecione uma data primeiro</option>
+            </select>
+
+            <button type="submit">Confirmar Consulta</button>
+        </form>
+    </div>
+
+    <script src="js/horarios.js"></script>
+</body>
+</html>

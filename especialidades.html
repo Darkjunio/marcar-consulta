@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Escolher Especialidade</title>
+  <link rel="stylesheet" href="css/especialidades.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Escolha a especialidade que você quer marcar a consulta</h1>
+    <div class="especialidades">
+
+      <!-- Cardiologista -->
+      <div class="card">
+        <h2>Cardiologista</h2>
+        <p><strong>Dr. Marcos Oliveira</strong></p>
+        <p>Especialista em saúde do coração, realiza exames e acompanhamento de hipertensão.</p>
+        <p><strong>Avaliação:</strong> 4.8</p>
+        <button onclick="selecionarEspecialidade('Cardiologista', 'Dr. Marcos Oliveira')">Agendar consulta</button>
+      </div>
+
+      <!-- Clínica Geral -->
+      <div class="card">
+        <h2>Clínica Geral</h2>
+        <p><strong>Dra. Fernanda Souza</strong></p>
+        <p>Atendimento clínico amplo, ideal para primeiros sintomas ou check-up.</p>
+        <p><strong>Avaliação:</strong> 5.0</p>
+        <button onclick="agendarConsulta('Clínica Geral')">Agendar consulta</button>
+      </div>
+
+      <!-- Pediatria -->
+      <div class="card">
+        <h2>Pediatria</h2>
+        <p><strong>Dr. João Vitor</strong></p>
+        <p>Cuida da saúde de bebês, crianças e adolescentes. Atendimento humanizado.</p>
+        <p><strong>Avaliação:</strong> 4.9</p>
+        <button onclick="agendarConsulta('Pediatria')">Agendar consulta</button>
+      </div>
+
+      <!-- Psicologia -->
+      <div class="card">
+        <h2>Psicologia</h2>
+        <p><strong>Dra. Letícia Ferreira</strong></p>
+        <p>Psicologia clínica, foco em ansiedade, depressão e desenvolvimento emocional.</p>
+        <p><strong>Avaliação:</strong> 4.9</p>
+        <button onclick="agendarConsulta('Psicologia')">Agendar consulta</button>
+      </div>
+
+      <!-- Oftalmologia -->
+      <div class="card">
+        <h2>Oftalmologia</h2>
+        <p><strong>Dr. Ricardo Alves</strong></p>
+        <p>Cuidados com a visão, exames e prescrição de óculos e lentes.</p>
+        <p><strong>Avaliação:</strong> 4.6</p>
+        <button onclick="agendarConsulta('Oftalmologia')">Agendar consulta</button>
+      </div>
+
+      <!-- Nutrição -->
+      <div class="card">
+        <h2>Nutrição</h2>
+        <p><strong>Dra. Ana Julia</strong></p>
+        <p>Reeducação alimentar, emagrecimento saudável e nutrição funcional.</p>
+        <p><strong>Avaliação:</strong> 5.0</p>
+        <button onclick="agendarConsulta('Nutrição')">Agendar consulta</button>
+      </div>
+
+      <!-- Odontologia -->
+      <div class="card">
+        <h2>Odontologia</h2>
+        <p><strong>Dr. Pedro Lima</strong></p>
+        <p>Dentista especialista em estética dental e tratamentos ortodônticos.</p>
+        <p><strong>Avaliação:</strong> 4.7</p>
+        <button onclick="agendarConsulta('Odontologia')">Agendar consulta</button>
+      </div>
+
+      <!-- Ortopedia -->
+      <div class="card">
+        <h2>Ortopedia</h2>
+        <p><strong>Dra. Camila Torres</strong></p>
+        <p>Tratamento de dores articulares, fraturas e reabilitação.</p>
+        <p><strong>Avaliação:</strong> 4.8</p>
+        <button onclick="agendarConsulta('Ortopedia')">Agendar consulta</button>
+      </div>
+
+      <!-- Ginecologia -->
+      <div class="card">
+        <h2>Ginecologia</h2>
+        <p><strong>Dra. Bianca Martins</strong></p>
+        <p>Saúde feminina, prevenção, fertilidade e acompanhamento pré-natal.</p>
+        <p><strong>Avaliação:</strong> 5.0</p>
+        <button onclick="agendarConsulta('Ginecologia')">Agendar consulta</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/especialidades.js"></script>
+</body>
+</html>
